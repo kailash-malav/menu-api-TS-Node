@@ -55,7 +55,7 @@
     itemUpdate: BaseItem
   ): Promise<Item | null> => {
     const item = await find(id);
-  
+  // check
     if (!item) {
       return null;
     }
