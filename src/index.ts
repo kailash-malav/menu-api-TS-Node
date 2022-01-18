@@ -33,6 +33,7 @@ import { notFoundHandler } from "./middleware/not-found.middleware";
 /**
  * Server Activation
  */
+
  app.listen(PORT, () => {
     console.log(`Listening on port ${PORT}`);
   });
